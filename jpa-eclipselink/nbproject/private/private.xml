@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/D:/Development/java-application/JPA_Eclipselink/src/com/eclipselink/service/DeleteEmployee.java</file>
+            <file>file:/D:/Development/java-application/JPA_Eclipselink/src/com/eclipselink/entity/Employee.java</file>
+            <file>file:/D:/Development/java-application/JPA_Eclipselink/src/com/eclipselink/service/FindEmployee.java</file>
+            <file>file:/D:/Development/java-application/JPA_Eclipselink/src/com/eclipselink/service/TestEmployee.java</file>
+            <file>file:/D:/Development/java-application/JPA_Eclipselink/JPA%20Content/META-INF/persistence.xml</file>
+            <file>file:/D:/Development/java-application/JPA_Eclipselink/src/com/eclipselink/service/LocalDAO.java</file>
+            <file>file:/D:/Development/java-application/JPA_Eclipselink/src/com/eclipselink/service/CreateEmployee.java</file>
+            <file>file:/D:/Development/java-application/JPA_Eclipselink/src/com/eclipselink/service/UpdateEmployee.java</file>
+        </group>
+    </open-files>
+</project-private>
