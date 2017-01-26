@@ -1,7 +1,11 @@
 package com.infiniteskills.data.entities;
+import java.util.List;
+import java.util.Map;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Date;
+import java.util.HashMap;
+
 import javax.persistence.*;
 
 @Entity
@@ -35,8 +39,12 @@ public class Bank {
 	@Column(name="CREATED_BY")
 	private String createdBy;
 
-	
-	private Collection<String> contacts = new ArrayList<String>();
+	@ElementCollection
+	@CollectionTable(name="BANK_CONTACT",joinColumns=@JoinColumn(name="BANK_ID"))
+	@MapKeyColumn(name="POSITION_TYPE")
+	@Column(name="NAME")
+	private Map<String, String> contacts = new HashMap<String, String>();
+	 
 	public Long getBankId() {
 		return bankId;
 	}
@@ -139,6 +147,14 @@ public class Bank {
 
 	public void setZipCode(String zipCode) {
 		this.address.setZipCode(zipCode);
+	}
+
+	public Map<String, String> getContacts() {
+		return contacts;
+	}
+
+	public void setContacts(Map<String, String> contacts) {
+		this.contacts = contacts;
 	}
 
 	

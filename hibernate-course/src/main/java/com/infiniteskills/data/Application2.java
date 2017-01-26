@@ -26,8 +26,11 @@ public class Application2 {
 		bank.setCreatedDate(new Date());
 		bank.setLastUpdatedBy("Kevin");
 		bank.setLastUpdatedDate(new Date());
-//		bank.getContacts().put("MANAGER", "Joe");
-//		bank.getContacts().put("TELLER", "Mary");
+		
+		//bank.getContacts().add("Joe");
+		//bank.getContacts().add("Marry");
+		bank.getContacts().put("MANAGER", "Joe");
+		bank.getContacts().put("TELLER", "Mary");
 		session.save(bank);
 
 		
